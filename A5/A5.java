@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class A5 {
 
 	public static void main(String[] args) {
-	
+		
 		boolean knowledgeRequired = false;
 		
 		ArrayList<String> instructors = new ArrayList<String>();
