@@ -28,7 +28,7 @@ public class C2 {
 		scan.close();
 			
 		double totalPrice = calculateTotalPrice(numberOfDays, priceDay, knowledgeRequired);
-		printInfo(courseTitle, numberOfDays, priceDay, knowledgeRequired, totalPrice);
+		printInfo(courseTitle, numberOfDays, priceDay, knowledgeRequired);
 		
 		String category;
 		if (totalPrice < 500) {
@@ -51,8 +51,9 @@ public class C2 {
 	}	
 	
 		
-	public static void printInfo(String courseTitle, int numberOfDays, double priceDay, boolean knowledgeRequired, double totalPrice) {	
+	public static void printInfo(String courseTitle, int numberOfDays, double priceDay, boolean knowledgeRequired) {	
 		System.out.println ("Course name " +courseTitle + " during " + numberOfDays + "day costs " + priceDay + " a day. " + "knowledge needed : " +knowledgeRequired);
+		double totalPrice = calculateTotalPrice(numberOfDays, priceDay, knowledgeRequired);
         System.out.println ("Total price for this course = " + totalPrice);
 	}	
 		
