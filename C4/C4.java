@@ -10,12 +10,13 @@ public class C4 {
 	
 	public static void welcomeLoop (){
 		Scanner scan = new Scanner(System.in);
-		String greetAgain = "N" ;
-		do {
-			System.out.println("Welcome !");
-			System.out.println("Would you like to be greated again ? (Y/N)");
-			greetAgain = scan.nextLine();
-		} while (greetAgain.equals("Y") || greetAgain.equals("y"));		
+		System.out.println("Welcome !");
+		System.out.println("Would you like to be greated again ? (Y/N)");
+		String greetAgain = scan.nextLine();
+
+		if (greetAgain.equals("Y") || greetAgain.equals("y")) {
+			welcomeLoop();
+		}
 		scan.close();
 	}
 	
