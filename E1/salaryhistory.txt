@@ -1,0 +1,6 @@
+Salary of Kristof Dhondt at 22 is 2200.0.
+Salary of Kristof Dhondt at 27 is 2266.0.
+Salary of Kristof Dhondt at 32 is 2333.98.
+Salary of Kristof Dhondt at 37 is 2403.9994.
+Salary of Kristof Dhondt at 42 is 2476.1193820000003.
+Salary of Kristof Dhondt at 47 is 2550.4029634600006.
